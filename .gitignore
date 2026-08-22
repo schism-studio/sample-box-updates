@@ -67,3 +67,16 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Node / TypeScript
+node-modules/
+.vite/
+*.tsbuildinfo
+
+# JUCE / IDE
+Builds/
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
